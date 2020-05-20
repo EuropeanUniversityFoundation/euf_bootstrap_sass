@@ -4,10 +4,11 @@
  */
 
 .breadcrumb {
-    font-size: 0.929em$font-size-sm;
+  font-size: $font-size-sm;
+  margin: 0;
 }
 
 .region-breadcrumb {
-    padding: 0 15px 0.25em;
-    width: 100%;
+  padding: 0 15px 0.25em;
+  width: 100%;
 }

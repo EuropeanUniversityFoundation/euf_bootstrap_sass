@@ -1,43 +1,65 @@
 /* ------------------ Header ------------------ */
 
 #navbar-top {
-    padding: 0 1rem;
+  padding: 0 1rem;
 }
 
-#navbar-top.navbar-dark .nav-link:hover,
-#navbar-top.navbar-dark .nav-link:focus {
-    color: rgba(255, 255, 255, 0.75);
+header .navbar-collapse {
+  font-weight: bold;
+  text-align: right;
 }
 
-#navbar-top.navbar-dark .nav-link {
-    color: rgba(255, 255, 255, 0.5);
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link:focus {
+  color: $primary-light;
 }
 
-#navbar-top.navbar-light .nav-link:hover,
-#navbar-top.navbar-light .nav-link:focus {
-    color: rgba(0, 0, 0, 0.7);
+.navbar-dark .navbar-nav .nav-link {
+  color: $white;
 }
 
-#navbar-top.navbar-light .nav-link {
-    color: rgba(0, 0, 0, 0.5);
+.navbar-light .navbar-nav .active .nav-link:hover,
+.navbar-light .navbar-nav .nav-link.active:focus,
+.navbar-light .navbar-nav .active .nav-link:hover,
+.navbar-light .navbar-nav .nav-link.active:focus,
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link:focus {
+  color: $accent-dark;
+}
+
+.navbar-light .navbar-nav .active .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link {
+  color: $primary-shade;
 }
 
 .navbar-brand .site-logo {
-    margin-right: 1rem;
+  margin-right: 1rem;
 }
 
 @media (max-width: 33.9em) {
-    .navbar-toggleable-xs .navbar-nav .nav-item+.nav-item,
-    .navbar-toggleable-xs.collapse.in .navbar-nav .nav-item {
-        margin-left: 0;
-        float: none;
-    }
+  .navbar-brand>.img-fluid {
+    max-height: 2rem;
+    width: auto;
+  }
+  .navbar-toggleable-xs .navbar-nav .nav-item+.nav-item,
+  .navbar-toggleable-xs.collapse.in .navbar-nav .nav-item {
+    margin-left: 0;
+    float: none;
+  }
+}
+
+@media (min-width: 34em) and (max-width: 47.9em) {
+  .navbar-brand>.img-fluid {
+    max-height: 2.5rem;
+    width: auto;
+  }
 }
 
 @media (max-width: 47.9em) {
-    .navbar-toggleable-sm .navbar-nav .nav-item+.nav-item,
-    .navbar-toggleable-xs.collapse.in .navbar-nav .nav-item {
-        margin-left: 0;
-        float: none;
-    }
+  .navbar-toggleable-sm .navbar-nav .nav-item+.nav-item,
+  .navbar-toggleable-xs.collapse.in .navbar-nav .nav-item {
+    margin-left: 0;
+    float: none;
+  }
 }

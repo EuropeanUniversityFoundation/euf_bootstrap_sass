@@ -5,14 +5,14 @@
 //
 @each $color,
 $value in $theme-colors {
-    .btn-#{$color} a {
-        @include button-variant($value, $value);
-    }
+  .btn-#{$color} a {
+    @include button-variant($value, $value);
+  }
 }
 
 @each $color,
 $value in $theme-colors {
-    .btn-outline-#{$color} a {
-        @include button-outline-variant($value);
-    }
+  .btn-outline-#{$color} a {
+    @include button-outline-variant($value);
+  }
 }

@@ -7,39 +7,39 @@
 /* This is required to win over specificity of #content h2 */
 
 #content .comment-wrapper h2 {
-    margin-bottom: 1em;
+  margin-bottom: 1em;
 }
 
 #content .comment-wrapper h2.comment-form__title {
-    margin-bottom: 1em;
+  margin-bottom: 1em;
 }
 
 .field-node--comment {
-    font-size: $font-size-sm;
+  font-size: $font-size-sm;
 }
 
 .comment {
-    margin-bottom: $comment-spacer-y;
-    vertical-align: top;
-    display: table;
+  margin-bottom: $comment-spacer-y;
+  vertical-align: top;
+  display: table;
 }
 
 [dir="rtl"] .comment {
-    direction: rtl;
+  direction: rtl;
 }
 
 .comment__meta {
-    padding: 0 30px 0 0;
-    /* LTR */
-    font-size: $font-size-base;
+  padding: 0 30px 0 0;
+  /* LTR */
+  font-size: $font-size-base;
 }
 
 [dir="rtl"] .comment__meta {
-    padding: 0 0 0 30px;
+  padding: 0 0 0 30px;
 }
 
 .comment__attribution img {
-    border: 1px solid $border-color;
+  border: 1px solid $border-color;
 }
 
 
