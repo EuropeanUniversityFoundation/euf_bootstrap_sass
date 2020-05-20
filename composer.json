@@ -1,0 +1,10 @@
+{
+    "name": "euf/euf_bootstrap_sass",
+    "type": "drupal-theme",
+    "description": "SASS subtheme for Barrio Theme.",
+    "homepage": "https://github.com/EuropeanUniversityFoundation/euf_bootstrap_sass",
+    "license": "GPL-2.0+",
+    "require": {
+        "drupal/bootstrap_barrio": "^4.8.0"
+    }
+}
