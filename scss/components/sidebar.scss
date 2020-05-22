@@ -4,6 +4,7 @@
   .block {
     border-style: solid;
     border-width: $border-width;
+    border-color: $primary-light;
     padding: $spacer $spacer;
     margin: 0 0 $spacer;
     .content {

@@ -58,7 +58,8 @@ function js () {
 // Static Server + watching scss/html files
 function serve () {
   browserSync.init({
-    proxy: 'http://yourdomain.com',
+    proxy: process.env.PROJECT_BASE_URL,
+    open: false,
   })
 
   gulp.watch([paths.scss.watch, paths.scss.bootstrap], styles).on('change', browserSync.reload)
