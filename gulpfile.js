@@ -58,7 +58,7 @@ function js () {
 // Static Server + watching scss/html files
 function serve () {
   browserSync.init({
-    proxy: process.env.PROJECT_BASE_URL,
+    proxy: process.env.BROWSERSYNC_PROXY,
     open: false,
   })
 

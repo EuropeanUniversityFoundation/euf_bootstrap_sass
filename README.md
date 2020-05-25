@@ -37,7 +37,7 @@ When developing the custom theme with the standard EUF Docker stack, enable the 
 
 When developing on a standard LAMP stack, it is necessary to declare an environment variable for the build tools to work properly, for example:
 
-    export PROJECT_BASE_URL=http://localhost
+    export BROWSERSYNC_PROXY=http://localhost
 
 ## Build tools
 
