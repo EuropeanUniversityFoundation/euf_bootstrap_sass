@@ -6,8 +6,8 @@ core: 8.x
 core_version_requirement: ^8 || ^9
 base theme: bootstrap_barrio
 
-#logo: 'logo_color.png'
-logo: 'logo_white.png'
+logo: 'logo_color.png'
+#logo: 'logo_white.png'
 
 libraries:
   - euf_bootstrap_sass/global-styling
