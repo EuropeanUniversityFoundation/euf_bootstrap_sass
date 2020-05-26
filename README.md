@@ -39,15 +39,15 @@ When developing the custom theme with the standard EUF Docker stack, enable the 
 
 This theme includes **Gulp** as the task runner, **SASS** compilation, **Autoprefixer** and **BrowserSync**, among other tools. Check the `gulpfile.js` for more details.
 
-### BrowserSync on Docker
-
-In order to use BrowserSync when developing on the standard EUF Docker stack, make sure to comment out the Trusted host settings in your `settings.local.php`, otherwise BrowserSync will not be able to proxy the site.
-
 ### BrowserSync on LAMP
 
 In order to use BrowserSync when developing on a standard LAMP stack, it is necessary to manually declare an environment variable, for example:
 
     export BROWSERSYNC_PROXY=http://localhost
+
+### BrowserSync on Docker
+
+**CURRENTLY NOT SUPPORTED.**
 
 ## Branding
 
