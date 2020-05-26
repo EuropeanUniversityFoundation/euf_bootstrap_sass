@@ -29,10 +29,10 @@ To create a custom theme, go to `web/themes/contrib/euf_bootstrap_sass` and run 
 When developing the custom theme with the standard EUF Docker stack, enable the NodeJS container in `docker-composer.yml` and define the relevant variables in the `.env` file.
 
     make stop                 # if the containers are running
-    nano docker-compose.yml   # uncomment the relevant lines
-    nano .env                 # define the custom theme directory
+    nano docker-compose.yml   # uncomment the relevant lines and change the custom theme path
     make up                   # start the containers again
     make node-shell           # to access the shell of the NodeJS container
+    gulp -v                   # to confirm both gulp and gulp-cli are installed
     gulp                      # to run the build tools
 
 ## Build tools
