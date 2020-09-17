@@ -28,7 +28,7 @@ bootstrap_barrio_navbar_top_position: ''
 bootstrap_barrio_navbar_top_color: 'navbar-dark'
 bootstrap_barrio_navbar_top_background: ''
 bootstrap_barrio_navbar_position: ''
-bootstrap_barrio_navbar_color: 'navbar-dark'
+bootstrap_barrio_navbar_color: ''
 bootstrap_barrio_navbar_background: ''
 
 # Messages.
