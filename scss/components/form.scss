@@ -25,3 +25,9 @@ form .filter-wrapper {
 form .form-type-textarea {
   margin-bottom: 0;
 }
+
+// Add margin to buttons on forms
+
+form button {
+  margin: 0.5em 0.5em 0.5em 0;
+}
