@@ -45,24 +45,24 @@ function styles () {
     .pipe(cleanCss())
     .pipe(rename({ suffix: '.min' }))
     .pipe(gulp.dest(paths.scss.dest))
-    .pipe(browserSync.stream())
+    // .pipe(browserSync.stream())
 }
 
 // Move the javascript files into our js folder
 function js () {
   return gulp.src([paths.js.bootstrap, paths.js.jquery, paths.js.popper])
     .pipe(gulp.dest(paths.js.dest))
-    .pipe(browserSync.stream())
+    // .pipe(browserSync.stream())
 }
 
 // Static Server + watching scss/html files
 function serve () {
-  browserSync.init({
-    proxy: process.env.BROWSERSYNC_PROXY,
-    open: false,
-  })
+  // browserSync.init({
+  //   proxy: process.env.BROWSERSYNC_PROXY,
+  //   open: false,
+  // })
 
-  gulp.watch([paths.scss.watch, paths.scss.bootstrap], styles).on('change', browserSync.reload)
+  gulp.watch([paths.scss.watch, paths.scss.bootstrap], styles)//.on('change', browserSync.reload)
 }
 
 const build = gulp.series(styles, gulp.parallel(js, serve))
