@@ -21,7 +21,7 @@
     "bootstrap-icons": "^1.0.0-alpha3"
   },
   "devDependencies": {
-    "browser-sync": "^2.26.12",
+    "browser-sync": "^2.27.10",
     "del": "^3.0.0",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^4.1.0",
