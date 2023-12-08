@@ -1,10 +1,33 @@
 {
     "name": "euf/euf_bootstrap_sass",
     "type": "drupal-theme",
-    "description": "SASS subtheme for Barrio Theme.",
+    "description": "Subtheme of Bootstrap Barrio SASS with EUF branding.",
+    "keywords": [
+        "Bootstrap 4",
+        "Drupal",
+        "SASS"
+    ],
     "homepage": "https://github.com/EuropeanUniversityFoundation/euf_bootstrap_sass",
-    "license": "GPL-2.0+",
+    "support": {
+        "issues": "https://github.com/EuropeanUniversityFoundation/euf_bootstrap_sass/issues",
+        "source": "https://github.com/EuropeanUniversityFoundation/euf_bootstrap_sass"
+    },
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Tiago Simões",
+            "email": "tiago.simoes@uni-foundation.eu",
+            "role": "Maintainer"
+        }
+    ],
     "require": {
         "drupal/bootstrap_barrio": "^5.1.0"
-    }
+    },
+    "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        }
+    ]
 }
